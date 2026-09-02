@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    background-color: rgb(26, 25, 50);
+}
+
+nav img{
+    height: 60px;
+    padding: 0 15% 0 15%;
+}
+
+ul{
+    display: flex;
+    color: rgba(255, 255, 255, 0.398);
+    gap: 50px;
+    padding-left: 10%;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+}
+
+.unico{
+    background: linear-gradient(to right, rgb(72, 19, 151), rgb(43, 94, 175));
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    border: 0;
+}
+
+.uno{
+    display: flex;
+}
+
+.izquierda{
+    background-color:rgb(24, 24, 98) ;
+    color: white;
+}
+
+.izquierda h2{
+    font-size: 80px;
+    padding: 170px 230px 0 170px;
+}
+
+.izquierda p{
+    text-align: center;
+    padding: 50px 0 50px 0;
+    font-size: 20px;
+
+}
+
+.derecha{
+    background-image: url(../assets/img/hojasFondo.jpg);
+    width: 51%;
+}
+
+.derecha img{
+    padding-left: 30%;
+    padding-top: 20%;
+    height: 60%;
+}
+
+.botonpeque{
+    text-align: center;
+    margin: 0 34%;
+    padding: 5px;
+    border: solid rgba(255, 255, 255, 0.415);
+    border-radius: 5px;
+}
+
+.a{
+    color: rgb(255, 0, 212);
+    height: 30px;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.b{
+    background-color: rgb(24, 24, 98);
+    border: solid 2px white;
+    color: white;
+    height: 30px;
+    width: 90px;
+    border-radius: 4px;
+}
+
+.dos{
+    text-align: center;
+}
+
+.dos h2{
+    color: rgb(255, 0, 234);
+    font-size: 60px;
+    padding: 30px;
+}
+
+.dosmini{
+    display: flex;
+}
+
+.dosmini img{
+    width: 35%;
+}
+
+.pocodeletras h3{
+    color: blueviolet;
+    font-size: 40px;
+    padding-bottom: 60px;
+}
+
