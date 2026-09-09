@@ -39,7 +39,7 @@ li{
 }
 
 .izquierda{
-    background-color:rgb(24, 24, 98) ;
+    background-color: rgb(41, 39, 86);
     color: white;
 }
 
@@ -57,7 +57,7 @@ li{
 
 .derecha{
     background-image: url(../assets/img/hojasFondo.jpg);
-    width: 51%;
+    width: 56%;
 }
 
 .derecha img{
@@ -67,18 +67,24 @@ li{
 }
 
 .botonpeque{
-    text-align: center;
-    margin: 0 34%;
-    padding: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 30%;
+    padding: 10px 0 0 0;
     border: solid rgba(255, 255, 255, 0.415);
     border-radius: 5px;
+
 }
 
 .a{
+    background-color: white;
     color: rgb(255, 0, 212);
     height: 30px;
+    padding: 0 10px;
+    border: none;
     border-radius: 4px;
-    padding: 2px;
+    box-sizing: border-box;
 }
 
 .b{
@@ -87,7 +93,9 @@ li{
     color: white;
     height: 30px;
     width: 90px;
+    padding: 0;
     border-radius: 4px;
+    box-sizing: border-box;
 }
 
 .dos{
@@ -96,21 +104,145 @@ li{
 
 .dos h2{
     color: rgb(255, 0, 234);
-    font-size: 60px;
-    padding: 30px;
+    font-size: 70px;
+    padding: 70px;
 }
 
 .dosmini{
     display: flex;
+    gap: 80px;
 }
 
 .dosmini img{
     width: 35%;
+    padding-left: 15%;
 }
 
 .pocodeletras h3{
     color: blueviolet;
-    font-size: 40px;
+    font-size: 50px;
     padding-bottom: 60px;
 }
 
+.pocodeletras p{
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.pocodeletras h4{
+    color: rgb(255, 0, 251);
+    font-size: 30px;
+    text-align: left;
+}
+
+.pocodeletras li{
+    text-align: left;
+}
+
+.tres{
+    background-color: rgb(26, 25, 50);
+    margin-top: 60px;
+}
+
+.tres h1{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    padding-top: 15px;
+}
+
+.unicoo{
+    color: white;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.cajas{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.box{
+    background-color: white;
+    margin: 30px;
+    text-align: center;
+    border-radius: 5px; 
+}
+
+.box img{
+    padding-top: 20px;
+}
+
+.lite{
+    color: rgb(255, 0, 251);
+}
+
+.azul{
+    color: rgb(13, 13, 72);
+}
+
+.price{
+    padding: 30px;
+}
+
+.currency{
+    font-size: 35px;
+}
+
+.amount{
+    font-size: 35px;
+}
+
+.unamas{
+    padding-bottom: 40px;
+}
+
+.parrafo{
+    padding: 0 30px 20px 30px;
+}
+
+button{
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    margin-bottom:10px;
+    background-color: rgb(33, 33, 85);
+    border: none;
+    border-radius: 5px;
+}
+
+.rosa{
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    margin-bottom:10px;
+    background-color: rgb(255, 0, 217);
+    border: none;
+    border-radius: 5px;
+}
+
+footer{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    gap: 55%;
+}
+
+footer p{
+    padding-left: 20%;
+}
+
+.redes img{
+    gap: 20px;
+}
+
+@media (max-width: 920px){
+    nav img{
+        padding: 0 10% 0 10%;
+    }
+
+    ul{
+        padding-left: 5px;
+    }
+}
