@@ -237,12 +237,37 @@ footer p{
     gap: 20px;
 }
 
-@media (max-width: 920px){
+@media (min-width: 920px) and (max-width: 1279px){
     nav img{
         padding: 0 10% 0 10%;
     }
 
-    ul{
-        padding-left: 5px;
+    .izquierda h2{
+        padding: 80px 130px 0 100px;
     }
+
+    .botonpeque{
+        margin: 0 25%;
+        padding: 10px 0 0 0;
+    }
+
+    .dosmini{
+        gap: 50px;
+    }
+
+    .dosmini img{
+        padding-left: 10%;
+    }
+
+    .unicoo{
+        font-size: 20px;
+    }
+
+    footer{
+        gap: 40%;
+    }
+
+    footer p{
+    padding-left: 15%;
+}
 }
