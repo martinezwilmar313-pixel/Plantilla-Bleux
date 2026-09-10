@@ -61,7 +61,7 @@ li{
 }
 
 .derecha img{
-    padding-left: 30%;
+    padding-left: 20%;
     padding-top: 20%;
     height: 60%;
 }
@@ -237,7 +237,7 @@ footer p{
     gap: 20px;
 }
 
-@media (min-width: 920px) and (max-width: 1279px){
+@media (min-width: 921px) and (max-width: 1279px){
     nav img{
         padding: 0 10% 0 10%;
     }
@@ -270,4 +270,218 @@ footer p{
     footer p{
     padding-left: 15%;
 }
+}
+
+@media (min-width: 769px) and (max-width: 920px){
+    nav img{
+        padding: 0 5% 0 5%;
+    }
+
+    ul{
+        gap: 30px;
+    }
+
+    .izquierda h2{
+        font-size: 70px;
+        padding: 80px 100px 0 60px;
+    }
+
+    .derecha img{
+        padding-left: 20%;
+        padding-bottom: 50px;
+        width: 60%;
+        height: auto;
+
+    }
+
+    .derecha{
+        width: 50%;
+    }
+
+    .botonpeque{
+        margin: 0 20%;
+    }
+
+    .dosmini img{
+        padding-top: 40px;
+        height: 60%;
+        padding-left: 8%;
+    }
+
+    .pocodeletras h3{
+        font-size: 40px;
+    }
+
+    .pocodeletras p{
+        font-size: 17px;
+    }
+
+    .pocodeletras h4{
+        font-size: 20px;
+    }
+
+    .tres h1{
+        font-size: 50px;
+    }
+
+    .unicoo{
+        padding: 25px 0;
+        font-size: 18px;
+    }
+
+    .box{
+        margin: 20px;
+    }
+
+    .price{
+        padding: 20px;
+    }
+
+    .currency{
+        font-size: 25px;
+    }
+
+    .amount{
+        font-size: 25px;
+    }
+
+    .unamas{
+        padding-bottom: 30px;
+    }
+
+    .parrafo{
+        padding: 0 20px 10px 20px;
+    }
+
+    footer{
+        padding: 20px;
+        gap: 45%;
+    }
+
+    footer p{
+        padding-left: 10%;
+    }
+
+    .redes img{
+        gap: 30px;
+    }
+    
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    nav{
+        flex-direction: column;
+    }
+
+    nav img{
+        height: 50px;
+        width: 120px;
+        padding-left: 40%;
+    } 
+    
+    ul{
+        gap: 32px;
+        padding-left: 8%;
+    }
+
+    .uno{
+        flex-direction: column;
+    }
+
+    .izquierda h2{
+        font-size: 50px;
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .botonpeque{
+        margin: 0 20%;
+        margin-bottom: 20px;
+        padding: 10px 0 0 0;
+    }
+
+    .derecha{
+        width: 100%;
+    }
+
+    .derecha img{
+        padding-left: 30%;
+        padding-bottom: 50px;
+        width: 40%;
+        height: 20%;
+    }
+
+    .dos h2{
+        font-size: 50px;
+        padding: 50px;
+    }
+
+    .dosmini{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dosmini img{
+        width: 45%;
+        padding-left: 28%;
+    }
+
+    .pocodeletras h3{
+        font-size: 30px;
+        padding: 30px;
+    }
+
+    .pocodeletras p{
+        font-size: 15px;
+        text-align:center;
+        padding-bottom: 15px;
+    }
+
+    .pocodeletras h4{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .pocodeletras li{
+        text-align: center;
+    }
+
+    .tres h1{
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .unicoo{
+        padding-top: 40px;
+        text-align: center;
+        font-size: 15px;
+    }   
+
+    .cajas{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box{
+        margin: 30px 90px;
+        text-align: center;
+        border-radius: 5px; 
+
+    }
+
+    footer{
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        gap: 15%;
+    }
+
+    footer p{
+        padding-left: 20%;
+    }
+
+    .redes img{
+        gap: 10px;
+    }
+
 }
