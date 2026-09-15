@@ -485,3 +485,115 @@ footer p{
     }
 
 }
+
+@media (min-width: 352px) and (max-width: 480px){
+    nav{
+        display: flex;
+        flex-direction: column;
+    }  
+
+    nav img{
+        height: 50px;
+        padding: 0 30%;
+        margin-left: 25px;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 5%;
+        padding-left: 5%;
+
+    }
+
+    .uno{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .izquierda h2{
+        font-size: 40px;
+        padding: 50px 30px 0 125px;
+    }
+
+    .botonpeque{
+        margin: 0 15%;
+        margin-bottom: 20px;
+        padding: 10px 0 0 0;
+    }
+
+    .derecha{
+        width: 100%;
+    }
+
+    .derecha img{
+        padding-left: 6%;
+        padding-top: 10%;
+        height: 20%;
+    }
+
+    .dos h2{
+        font-size: 40px;
+        padding: 50px;
+    }
+
+    .dosmini{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .dosmini img{
+        width: 50%;
+        padding-left: 90px;
+    }
+
+    .pocodeletras h3{
+        font-size: 50px;
+        padding-bottom: 40px;
+    }
+
+    .pocodeletras p{
+        font-size: 10;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .pocodeletras h4{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .pocodeletras li{
+        text-align: center;
+        padding: 3px;
+    }
+
+    .tres h1{
+        font-size: 40px;
+        padding-top: 15px;
+    }
+
+    .unicoo{
+        font-size: 15px;
+        padding: 10px 5px;
+    }
+
+    .cajas{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        gap: 20%;
+    }
+
+    footer p{
+        padding-left: 8%;
+
+    }
+}
